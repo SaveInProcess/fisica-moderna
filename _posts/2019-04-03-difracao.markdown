@@ -1,0 +1,29 @@
+---
+layout: post
+title: "Difração"
+briefing: "O fenômeno da difração ocorre com todos os tipos de ondas. Com as ondas sonoras, por exemplo, pode-se perceber a ocorrência desse fenômeno quando duas pessoas mantêm a conversação mesmo quando há um obstáculo interposto entre elas, como um muro."
+date: 2019-05-02 19:43:43 -0300
+is_post: true
+---
+
+<section class="post-main">
+  <p>
+    A difração pode ser definida como a capacidade das ondas em contornar obstáculos. Esse fenômeno pode acontecer com qualquer tipo de onda.
+  </p>
+  <img 
+    class="post-image"
+    src="https://s1.static.brasilescola.uol.com.br/artigos/ao-depararem-se-com-um-obstaculo-as-ondas-podem-contorna-lo-59c52c42a6a16.jpg?i=http://brasilescola.uol.com.br/upload/conteudo/images/ao-depararem-se-com-um-obstaculo-as-ondas-podem-contorna-lo-59c52c42a6a16.jpg"
+    alt="Ondas modificando-se após contornar um obstáculo"
+  />
+  <p class="post-image-font">
+    Figura 2 Fonte: https://brasilescola.uol.com.br/o-que-e/fisica/o-que-e-difracao.htm
+  </p>
+
+  <p>
+    Quando uma onda choca-se com um obstáculo que possui uma abertura com dimensões comparáveis a seu comprimento, as partes da onda que passam pelo espaço aberto alargam-se e atingem as regiões opostas ao obstáculo. No entanto, à medida que o comprimento de onda diminui, a obstrução causa cada vez mais atenuação, até que em frequências muito altas uma zona de sombra definida se desenvolve. A zona de sombra é basicamente uma área em branco no lado oposto de uma obstrução na linha de visão do transmissor para o receptor.
+  </p>
+
+  <p>
+    A difração pode estender o alcance do rádio além do horizonte. Usando alta potência e baixas frequências, <code class="highlighter-rouge">ondas de rádio podem ser feitas para cercar a Terra por difração</code>.
+  </p>
+</section>

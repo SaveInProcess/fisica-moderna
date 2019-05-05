@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<div class="home">
+  <section class="intro">
+    <div class="content">
+      <div class="wrap">
+        <div class="intro-title">
+          <h1>
+            Física Moderna
+          </h1>
+          <span>
+            — ondas eletromagnéticas
+          </span>
+        </div>
+        <p>
+          Projeto desenvolvido com o intuito de
+          <strong>explicar os conceitos sobre ondas eletromagnéticas</strong>
+          para os alunos do curso de ciência da computação.
+        </p>
+      </div>
+      {% include teaching.svg %}
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  {%- if site.posts.size > 0 -%}
+  <ul class="post-list">
+    {%- for post in site.posts -%}
+    <li>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      <span class="post-meta">
+        {% assign m = post.date | date: "%-m" %}
+        {{ post.date | date: "%-d de" }}
+        {% case m %} {% when '1' %}Janeiro {% when '2' %}Fevereiro {% when '3'
+        %}Março {% when '4' %}Abril {% when '5' %}Maio {% when '6' %}Junho {%
+        when '7' %}Julho {% when '8' %}Agosto {% when '9' %}Setembro {% when
+        '10' %}Outubro {% when '11' %}Novembro {% when '12' %}Dezembro {%
+        endcase %}
+        {{ post.date | date: "de %Y" }}
+      </span>
+      <p class="post-briefing" href="{{ post.url | relative_url }}">
+        {{ post.briefing | escape }}
+      </p>
+      <a href="{{ post.url | relative_url }}" class="post-read-more">
+        Ler mais
+      </a>
+      {%- if site.show_excerpts -%}
+      {{ post.excerpt }}
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+</div>
