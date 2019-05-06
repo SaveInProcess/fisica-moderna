@@ -20,9 +20,11 @@ is_post: true
   </p>
 
   <p>
+    Na imagem acima, depois que as ondas passam pela fenda, elas tornam-se circulares, assim, conseguem atingir toda a região posterior ao obstáculo.
+  </p>
+  <p>
     Quando uma onda choca-se com um obstáculo que possui uma abertura com dimensões comparáveis a seu comprimento, as partes da onda que passam pelo espaço aberto alargam-se e atingem as regiões opostas ao obstáculo. No entanto, à medida que o comprimento de onda diminui, a obstrução causa cada vez mais atenuação, até que em frequências muito altas uma zona de sombra definida se desenvolve. A zona de sombra é basicamente uma área em branco no lado oposto de uma obstrução na linha de visão do transmissor para o receptor.
   </p>
-
   <p>
     A difração pode estender o alcance do rádio além do horizonte. Usando alta potência e baixas frequências, <code class="highlighter-rouge">ondas de rádio podem ser feitas para cercar a Terra por difração</code>.
   </p>
